@@ -20,7 +20,7 @@ bool isKeyword (string a){
 int main() { 
 	fstream file; 
 	string s, filename; 
-	filename = "./add.c"; 
+	filename = "./add.txt"; 
 	file.open(filename.c_str()); 
 
 	while (file >> s) {
